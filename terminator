@@ -1,0 +1,11 @@
+# new tab
+ctrl+shift+t
+
+# split terminal horizontal
+ctrl+shift+o
+
+# split terminal vertical
+ctrl+shift+e
+
+# close sub-window
+ctrl+shift+w
