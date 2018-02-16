@@ -1,2 +1,8 @@
 # process status
 docker ps
+
+# pull down an image
+docker pull [IMG_NAME]
+ 
+# pull (if not local) and run an image
+docker run [IMG_NAME]
