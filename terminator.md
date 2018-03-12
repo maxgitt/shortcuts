@@ -15,10 +15,10 @@ ctrl+alt+t
 
 ## Window Navigation
 
-**switch between sub-windows** <br />
+**switch between sub-windows** <br>
 ctrl+tab (forward) <br>
 ctrl+shift+tab (reverse)
 
-#### switch between tabs
+**switch between tabs** <br>
 ctrl+'Page Down' (forward) <br>
 ctrl+'Page Up' (reverse)
