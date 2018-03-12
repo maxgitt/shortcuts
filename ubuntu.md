@@ -7,7 +7,7 @@ meta+w
 alt+tab (forward) <br>
 alt+shift+tab (reverse)
 
-**resize window**
+**resize window** <br>
 ctrl+meta+arrow (fullscreen=up, left=left, right=right)
 
 ## Workspaces
