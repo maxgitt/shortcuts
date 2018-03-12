@@ -11,7 +11,7 @@ alt+shift+tab (reverse)
 ctrl+meta+arrow (fullscreen=up, left=left, right=right)
 
 ## Workspaces
-First, enable workspaces in System Settings > Appearance > Behavior <br><br>
+First, enable workspaces in System Settings > Appearance > Behavior <br>
 
 **switch workspace** <br>
 ctrl+alt+arrow (up, down, left, right)
