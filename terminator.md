@@ -10,15 +10,15 @@ ctrl+shift+w
 #### new tab
 ctrl+shift+t
 
-### new window (not recommended ever)
+#### new window (not recommended ever)
 ctrl+alt+t
 
 ## Window Navigation
 
-### switch between sub-windows
+#### switch between sub-windows
 ctrl+tab (forward)
 ctrl+shift+tab (reverse)
 
-### switch between tabs
+#### switch between tabs
 ctrl+'Page Down' (forward)
 ctrl+'Page Up' (reverse)
