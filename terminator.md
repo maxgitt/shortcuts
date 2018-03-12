@@ -1,16 +1,15 @@
 ## Window Creation/Deletion
-
-#### split window
-ctrl+shift+o (horizontal)
+**split window** <br>
+ctrl+shift+o (horizontal) <br>
 ctrl+shift+e (vertical)
 
-#### close sub-window
+**close sub-window** <br>
 ctrl+shift+w
 
-#### new tab
+**new tab** <br>
 ctrl+shift+t
 
-#### new window (not recommended ever)
+**new window (not recommended ever)** <br>
 ctrl+alt+t
 
 ## Window Navigation
