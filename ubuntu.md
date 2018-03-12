@@ -16,5 +16,5 @@ First, enable workspaces in System Settings > Appearance > Behavior <br><br>
 **switch workspace** <br>
 ctrl+alt+arrow (up, down, left, right)
 
-**move window to different workspace
+**move window to different workspace** <br>
 ctrl+alt+shift+arrow
