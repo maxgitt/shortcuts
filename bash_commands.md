@@ -24,3 +24,10 @@ ctrl+r "search term" <br>
 !$ (get last element of previous command line argument) <br>
 !:3 (get third element of previous command line argument <br>
 
+**shell redirection** <br>
+> (file overwrite/creation) <br>
+>> (append to file)
+
+## Search
+**recursively look for files containing word**
+grep -rnw '/path/' -e 'word' (recursively, show line number, whole word)
