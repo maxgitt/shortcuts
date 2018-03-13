@@ -29,5 +29,5 @@ ctrl+r "search term" <br>
 >> (append to file)
 
 ## Search
-**recursively look for files containing word**
+**recursively look for files containing word** <br>
 grep -rnw '/path/' -e 'word' (recursively, show line number, whole word)
