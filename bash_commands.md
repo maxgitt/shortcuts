@@ -11,5 +11,16 @@ ctrl+k (delete all right of cursor) <br>
 ctrl+w (delete word left)
 
 
-# repeat last command (bang bang)
-!!
+## Common Commands
+**list all, one file per line, and classify** <br>
+ll (ls -alF) <br>
+
+**reverse search** <br>
+ctrl+r "search term" <br>
+
+**last command** <br>
+!! (repeat last command, sudo !! is useful) <br>
+!^ (get first element of previous command line argument) <br>
+!$ (get last element of previous command line argument) <br>
+!:3 (get third element of previous command line argument <br>
+
