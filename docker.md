@@ -1,11 +1,11 @@
-## Process <br>
+## Process
 **process status** <br>
 docker ps
 
-**remove all processes (all,quiet)**
+**remove all processes (all,quiet)** <br>
 docker rm $(docker ps -aq)
 
-**remove dead processes (all,quiet,filter)**
+**remove dead processes (all,quiet,filter)** <br>
 docker rm $(docker ps -aqf status=exited)
 
 ## Pull
