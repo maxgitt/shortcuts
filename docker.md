@@ -12,6 +12,10 @@ docker rm $(docker ps -aqf status=exited)
 **pull down an image** <br>
 docker pull [IMG_NAME]
 
+## Build
+**build an image and give it a name (tag)** (don't forget the period) <br>
+docker build -t [MY_NAME] .
+
 ## Run
 **pull (if not local) and run an image** <br>
 docker run [IMG_NAME]
