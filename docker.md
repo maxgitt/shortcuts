@@ -13,17 +13,14 @@ docker rm $(docker ps -aqf status=exited)
 docker pull [IMG_NAME]
 
 ## Build
-**build an image and give it a name (tag)** (don't forget the period) <br>
+**give it a name (tag)** (don't forget the period) <br>
 docker build -t [MY_IMG] .
 
 ## Run
-**run, leave container running, enable bash, aui(iactive, TTY, detach)** <br>
-docker run -itd [IMG_NAME] bash
-
-**run container that will remove itself if killed** <br>
+**leave container running, enable bash, auto-remove itself if killed (interactive, TTY, detach)** <br>
 docker run -itd --rm [IMG_NAME] bash
 
-**run,auto-remove,name** <br>
+**name** <br>
 docker run -itd --rm --name [MY_CONTAINER] [IMG_NAME]
 
 ## Enter
