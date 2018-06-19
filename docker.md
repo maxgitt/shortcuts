@@ -13,7 +13,7 @@ docker rm $(docker ps -aqf status=exited)
 docker pull [IMG_NAME]
 
 ## Build
-**give it a name (tag)** (don't forget the period) <br>
+**give it a name (tag), don't forget the period** <br>
 docker build -t [MY_IMG] .
 
 ## Run
