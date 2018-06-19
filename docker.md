@@ -14,21 +14,21 @@ docker pull [IMG_NAME]
 
 ## Build
 **build an image and give it a name (tag)** (don't forget the period) <br>
-docker build -t [MY_NAME] .
+docker build -t [MY_IMG] .
 
 ## Run
-**pull (if not local) and run an image** <br>
-docker run [IMG_NAME]
+**run, leave container running, enable bash, aui(iactive, TTY, detach)** <br>
+docker run -itd [IMG_NAME] bash
 
-**run and enter container as bash (interactive, TTY)** <br>
-docker run -it [IMG_NAME] bash
+**run container that will remove itself if killed** <br>
+docker run -itd --rm [IMG_NAME] bash
 
-**run and leave container running (interative, TTY, detach)** <br>
-docker run -itd [IMG_NAME]
-
-**run a container that will remove itself if killed** <br>
-docker
+**run,auto-remove,name** <br>
+docker run -itd --rm --name [MY_CONTAINER] [IMG_NAME]
 
 ## Enter
 **enter a running container as bash** <br>
 docker exec -it [CONTAINER] bash
+
+## Stop
+docker stop [CONTAINER]
