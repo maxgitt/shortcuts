@@ -16,3 +16,15 @@ docker pull [IMG_NAME]
 **pull (if not local) and run an image** <br>
 docker run [IMG_NAME]
 
+**run and enter container as bash (interactive, TTY)**
+docker run -it [IMG_NAME] bash
+
+**run and leave container running (interative, TTY, detach)** 
+docker run -itd [IMG_NAME]
+
+**run a container that will remove itself if killed**
+docker
+
+## Enter
+**enter a running container as bash**
+docker exec -it [CONTAINER] bash
