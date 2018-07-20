@@ -26,6 +26,8 @@ git submodule update
 git submodule update --checkout?
 cd [submodule/path]
 git pull
+OR
+git submodule foreach git pull origin master
 
 ## Working in a Submodule
 **Ensure you are on a working branch**
