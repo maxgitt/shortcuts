@@ -22,8 +22,7 @@ git submodule status
 git log --oneline --decorate
 
 ## Updating
-git submodule update
-git submodule update --checkout?
+git submodule update <br>
 cd [submodule/path]
 git pull
 OR
