@@ -1,5 +1,5 @@
 ## Adding a submodule
-cd my_workspace/
+cd my_workspace/  
 git submodule add [URL]
 
 ## Removing a submodule
