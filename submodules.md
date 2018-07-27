@@ -3,30 +3,30 @@ cd my_workspace/
 git submodule add [URL]
 
 ## Removing a submodule
-git submodule deinit [submodule/path]
-git rm submodule/path
-git status
+git submodule deinit [submodule/path]  
+git rm submodule/path  
+git status  
 
 ## Cloning the entire workspace
-git clone --recursive-submodules [URL]
-OR
-git clone [URL]
-cd workspace/
-git submodule update --init --recursive // recursively init all submodule repos
+git clone --recursive-submodules [URL]  
+OR  
+git clone [URL]  
+cd workspace/  
+git submodule update --init --recursive // recursively init all submodule repos  
 
 ## Checking status
-git submodule status
-(+) sign means workspace is pointing to different submodule commit // i.e. submodule is behind
+git submodule status  
+(+) sign means workspace is pointing to different submodule commit // i.e. submodule is behind  
 
 ## Git log
-git log --oneline --decorate
+git log --oneline --decorate  
 
 ## Updating
-git submodule update <br>
-cd [submodule/path]
-git pull
-OR
-git submodule foreach git pull origin master
+git submodule update  
+cd [submodule/path]  
+git pull  
+OR  
+git submodule foreach git pull origin master  
 
 ## Working in a Submodule
 **Ensure you are on a working branch**
