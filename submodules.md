@@ -9,7 +9,9 @@ git status
 
 ## Cloning the entire workspace
 git clone --recursive-submodules [URL]  
+  
 OR  
+  
 git clone [URL]  
 cd workspace/  
 git submodule update --init --recursive // recursively init all submodule repos  
@@ -25,7 +27,9 @@ git log --oneline --decorate
 git submodule update  
 cd [submodule/path]  
 git pull  
+  
 OR  
+  
 git submodule foreach git pull origin master  
 
 ## Working in a Submodule
