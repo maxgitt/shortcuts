@@ -24,7 +24,7 @@ git submodule status
 git log --oneline --decorate  
 
 ## Updating your submodules
-git submodule update (will put you in a headless state)
+git submodule update (will put you in a headless state)  
 cd [submodule/path]  
 cd checkout [branch name]
 git pull  
