@@ -34,8 +34,10 @@ ctrl+r "search term"
 
 **kill terminal**  
 reset  
-ctrl+c  
-ctrl+z, kill -9 (suspend to the background, then kill)  
+ctrl+c (SIGINT, can be ignored) 
+ctrl+\ (SIGQUIT)  
+ctrl+z, (SIGTSTP, pause a program to the background)  
+kill -9 (if a program is unresponsive SIGTSTP then kill -9 is last resort)  
 
 ## Search
 **recursively look for files containing word**  
