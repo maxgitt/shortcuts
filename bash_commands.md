@@ -34,7 +34,7 @@ ctrl+r "search term"
 
 **kill terminal**  
 reset  
-ctrl+c (SIGINT, can be ignored) 
+ctrl+c (SIGINT, can be ignored)  
 ctrl+\ (SIGQUIT)  
 ctrl+z, (SIGTSTP, pause a program to the background)  
 kill -9 (if a program is unresponsive SIGTSTP then kill -9 is last resort)  
