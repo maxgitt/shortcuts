@@ -32,7 +32,7 @@ ctrl+r "search term"
 \> (file overwrite/creation)  
 \>> (append to file)  
 
-**kill terminal**
+**kill terminal**  
 reset  
 ctrl+c  
 ctrl+z, kill -9 (suspend to the background, then kill)  
