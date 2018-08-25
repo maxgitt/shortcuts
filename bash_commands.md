@@ -32,6 +32,11 @@ ctrl+r "search term"
 \> (file overwrite/creation)  
 \>> (append to file)  
 
+**kill terminal**
+reset  
+ctrl+c  
+ctrl+z, kill -9 (suspend to the background, then kill)  
+
 ## Search
 **recursively look for files containing word**  
 grep -rnw '/path/' -e 'word' (recursively, show line number, whole word)  
