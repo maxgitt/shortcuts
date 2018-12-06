@@ -1,5 +1,6 @@
 ## References for launch.json
 https://github.com/Microsoft/vscode-cpptools/blob/master/launch.md
+https://medium.com/audelabs/c-development-using-visual-studio-code-cmake-and-lldb-d0f13d38c563
 
 ## Keywords
 program - location of the executable to debug  
