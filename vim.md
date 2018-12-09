@@ -1,11 +1,11 @@
-**save and quit** <br>
-shift+zz
+**save and quit**  
+shift+zz  
 
 **file explorer**  
-:Explore
+:Explore  
 :Ex
 
-**edit multiple lines**
+**edit multiple lines**  
 Ctrl+V (visual blocks)
 
 ### See Cheat Sheet
