@@ -1,3 +1,6 @@
+### See Cheat Sheet
+https://vim.rtorr.com/
+
 **save and quit**  
 shift+zz  
 
@@ -8,5 +11,5 @@ shift+zz
 **edit multiple lines**  
 Ctrl+V (visual blocks)
 
-### See Cheat Sheet
-https://vim.rtorr.com/
+**follow function definition**  
+**multiple tabs**
