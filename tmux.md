@@ -1,3 +1,6 @@
+# Help
+C-b ?
+
 ## Split screen  
 C-b % (split vertical)  
 C-b " (split horizontal)  
