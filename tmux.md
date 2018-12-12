@@ -6,7 +6,7 @@ C-b % (split vertical)
 C-b " (split horizontal)  
 
 ## Navigation
-C-b arrow (move to pane)  
+C-b <arrow> (move to pane)  
 
 ## Close pane
 C-d  
@@ -17,6 +17,11 @@ C-b c (create new window)
 C-b p (prev window)  
 C-b n (next window)  
 C-b <number> (window number)  
+  
+## Resizing
+C-b z (toggle full screen of a pane)  
+C-b C-<arrow> (resize in direction of arrow)  
+C-b , (rename current window)
 
 ## Sessions
 tmux (start session)  
