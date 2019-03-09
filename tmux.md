@@ -31,3 +31,6 @@ tmux ls
 tmux attach -t <number>  
 tmux new -s <name> (create session with name instead of default number)  
 tmux rename-session -t <number> <database> (rename session from number to name)  
+
+## Resurrect
+https://github.com/tmux-plugins/tmux-resurrect
