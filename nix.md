@@ -13,4 +13,4 @@ Builds the derivations in `path`. Creates a local symlink called `result` that p
 
 `nix-build -A anduril.snkWithoutCuda`  
 OR  
-`nix-build -E "with import ./default.nix {}; anduril.snkWithoutCuda`
+`nix-build -E "with import ./default.nix {}; anduril.snkWithoutCuda"`
