@@ -5,6 +5,18 @@
 `--attr/-A attrPath`  
 `--expr/-E` interpret expression on CLI instead of list of file names with expressions
 
+example:
+`nix-instantiate -E --eval --json --strict "import ./gpio.nix {}" | jq`
+* Take expression that imports a function and calls the empty set.
+* Evaluate (print), recursively print with strict, convert to json
+* Pipe to pretty JSON.
+
+*GCS*  
+```
+# configs/drone.nix depends on gcs
+./circleci.hs gcs
+```
+
 **Build store derivation**  
 `nix-store --realise`
 
